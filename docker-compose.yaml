@@ -1,0 +1,5 @@
+services:
+  backend:
+    image: localhost:8082/backend-base-devops:latest
+    ports:
+      - "3001:3001"
